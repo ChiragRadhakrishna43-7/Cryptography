@@ -1,4 +1,4 @@
-<p align='justify'><b>1. Knapsack Encryption</b><br/>
+<p align='justify'><b><h1>1. Knapsack Encryption</h1></b><br/>
 The Merkle–Hellman knapsack cryptosystem was one of the earliest public key cryptosystems. It was published by Ralph Merkle and Martin Hellman in 1978. <i><b>(Source: Wikipedia)</b></i><br/><br/>
   
 <b>STEP 1: DEFINE A SUPER-INCREASING SEQUENCE-</b> <br/>
