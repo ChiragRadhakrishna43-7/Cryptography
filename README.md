@@ -24,3 +24,7 @@ Compute r inverse. There are several ways to calculate and obtain the inverse of
 
 <p align='justify'><b><h1>2.AES Encryption</h1></b><br/>
 Implementation of a symmetric encryption scheme using the AES (Advanced Encryption Standard) algorithm, with additional functionality for padding and unpadding plaintext data.</p>
+
+<b>Main Functions-</b>
+<p align='justify'><b>encrypt_f(plain_txt, shared_secret):</b> Encrypts a plaintext message plain_txt using a shared secret key shared_secret. The encryption process involves:<br/>
+Padded the plaintext using a block size of AES.block_size (typically 16 bytes). Generating a random initialization vector (IV) of the same size as the block size. Encrypting the padded plaintext using AES in CBC mode with the shared secret key and the IV. Encoding the encrypted data using Base64.</p>
