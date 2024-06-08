@@ -36,6 +36,6 @@ Decoding the Base64-encoded ciphertext. Extracting the IV from the beginning of 
 <p align='justify'><b>pad(plain_text):</b>Adds padding to the plaintext data to ensure it is aligned with the AES block size.</p>
 <p align='justify'><b>unpad(plain_txt):</b>Removes padding from the decrypted plaintext data.</p>
 <p align='justify'><b>int_to_bytes(integer):</b>Converts an integer to a bytes object.</p>
-<b>Notes-</b>
+<b>Notes-</b><br/>
 <p align='justify'> The shared_secret key is used as input to both encryption and decryption functions. This key is assumed to be shared between the parties involved in the encryption and decryption process.
 The hashlib.sha256 function is used to generate a hash of the shared secret key, which is then used as the encryption key. The code uses the AES module from the cryptography library, which provides an implementation of the AES algorithm. The get_random_bytes function generates a random bytes object of the same size as the AES block size.</p>
