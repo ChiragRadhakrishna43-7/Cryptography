@@ -1,0 +1,1 @@
+<p align = 'justify'> Perform message exchange between two nodes. Each node generates a large number as private key. The shared secret key is computed using the Diffie-Hellman Key Exchange algorithm. This shared secret key is used to encrypt the intended message with the AES block of desired size. </p>
