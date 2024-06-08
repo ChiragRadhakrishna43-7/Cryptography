@@ -23,4 +23,4 @@ Compute r inverse. There are several ways to calculate and obtain the inverse of
 </p>
 
 <p align='justify'><b><h1>2.AES Encryption</h1></b><br/>
-</p>
+Implementation of a symmetric encryption scheme using the AES (Advanced Encryption Standard) algorithm, with additional functionality for padding and unpadding plaintext data.</p>
