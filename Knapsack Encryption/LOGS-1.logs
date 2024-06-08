@@ -1,0 +1,9 @@
+2024-03-10 15:08:27,722 - INFO -Connecting with 192.168.1.89 on port 49251.
+2024-03-10 15:08:34,790 - INFO -My private key is [1, 3, 9, 24, 40, 126, 217, 683, 2007, 4346].
+2024-03-10 15:08:34,790 - INFO -q value is 7705.
+2024-03-10 15:08:34,790 - INFO -r value is 1289.
+2024-03-10 15:08:34,790 - INFO -My public key is [1289, 3867, 3896, 116, 5330, 609, 2333, 2017, 5848, 459].
+2024-03-10 15:08:34,790 - INFO -Sending public key to teammate.
+2024-03-10 15:08:42,589 - INFO -Received ciphertext.
+2024-03-10 15:08:42,603 - INFO -Decrypting ciphertext.
+2024-03-10 15:08:42,603 - INFO -Plain text obtained is 1110010100.

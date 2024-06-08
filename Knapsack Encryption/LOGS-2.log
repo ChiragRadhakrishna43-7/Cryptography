@@ -1,0 +1,14 @@
+2024-03-10 15:07:52,536 - __main__ - INFO - You will be SHARING your key
+2024-03-10 15:07:52,537 - __main__ - INFO - Generating private and public key...
+2024-03-10 15:07:56,257 - __main__ - DEBUG - Private key: [9, 18, 33, 70, 135, 267, 538, 1074, 2154], Public key: [4145, 3959, 3649, 4328, 1541, 3144, 3318, 3790, 3125], Modulus: 4331, Multiplier: 1423
+2024-03-10 15:07:56,258 - __main__ - INFO - Sending public key to (192.168.1.116, 58847)
+2024-03-10 15:08:09,529 - __main__ - INFO - Received encrypted message: 16088
+2024-03-10 15:08:09,530 - __main__ - INFO - Decrypted message: 110010101
+2024-03-10 15:08:15,853 - __main__ - INFO - Connect at (192.168.1.89, 49251)
+2024-03-10 15:08:15,854 - __main__ - INFO - You will be RECEIVING a key
+2024-03-10 15:08:37,340 - __main__ - DEBUG - Other public key: [1289, 3867, 3896, 116, 5330, 609, 2333, 2017, 5848, 459]
+2024-03-10 15:08:45,105 - __main__ - DEBUG - Confirm message is: 1110010100
+2024-03-10 15:08:45,106 - __main__ - INFO - Encrypted message: 11678
+2024-03-10 15:08:45,106 - __main__ - INFO - Sent encrypted message to ('192.168.1.116', 53451)
+2024-06-08 15:42:04,613 - __main__ - INFO - Connect at (10.0.0.193, 59539)
+2024-06-08 15:42:04,613 - __main__ - INFO - You will be RECEIVING a key
