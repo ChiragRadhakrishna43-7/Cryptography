@@ -14,7 +14,7 @@ The public key is a non-super increasing sequence.
 ![Screenshot 2024-06-08 155905](https://github.com/ChiragRadhakrishna43-7/Cryptography/assets/121251823/349cf6e7-92ef-411b-b16c-2d38b6420d1f)
 
 <b>STEP 4: ENCRYPTION FUNCTION IMPLEMENTATION-</b> <br/>
-The encrypted ciphertext is an integer.
+The encrypted ciphertext is an integer.<br/>
 ![Screenshot 2024-06-08 160259](https://github.com/ChiragRadhakrishna43-7/Cryptography/assets/121251823/14369eb5-1664-40a0-a7ae-f3e4610e2762)
 
 <b>STEP 5: DECRYPTION-</b> <br/>
