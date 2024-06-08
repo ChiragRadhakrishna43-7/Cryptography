@@ -18,6 +18,9 @@ The encrypted ciphertext is an integer.<br/>
 ![Screenshot 2024-06-08 160259](https://github.com/ChiragRadhakrishna43-7/Cryptography/assets/121251823/14369eb5-1664-40a0-a7ae-f3e4610e2762)
 
 <b>STEP 5: DECRYPTION-</b> <br/>
-Compute r inverse. There are several ways to calculate and obtain the inverse of r. Using the extended Euclidean algorithm is one example.
+Compute r inverse. There are several ways to calculate and obtain the inverse of r. Using the extended Euclidean algorithm is one example.<br/>
 ![Screenshot 2024-06-08 161138](https://github.com/ChiragRadhakrishna43-7/Cryptography/assets/121251823/f44cef95-a946-4685-a7b7-f9afeb7cbe9b)
+</p>
+
+<p align='justify'><b><h1>2.AES Encryption</h1></b><br/>
 </p>
