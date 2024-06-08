@@ -26,5 +26,16 @@ Compute r inverse. There are several ways to calculate and obtain the inverse of
 Implementation of a symmetric encryption scheme using the AES (Advanced Encryption Standard) algorithm, with additional functionality for padding and unpadding plaintext data.</p>
 
 <b>Main Functions-</b>
-<p align='justify'><b>encrypt_f(plain_txt, shared_secret):</b> Encrypts a plaintext message plain_txt using a shared secret key shared_secret. The encryption process involves:<br/>
+<p align='justify'><b>encrypt_f(plain_txt, shared_secret):</b> Encrypts a plaintext message plain_txt using a shared secret key shared_secret.<br/> <i>The encryption process involves:</i><br/>
 Padded the plaintext using a block size of AES.block_size (typically 16 bytes). Generating a random initialization vector (IV) of the same size as the block size. Encrypting the padded plaintext using AES in CBC mode with the shared secret key and the IV. Encoding the encrypted data using Base64.</p>
+<br/>
+<p align='justify'><b>decrypt_f(cipher_txt, shared_secret):</b> Decrypts a ciphertext message cipher_txt using a shared secret key shared_secret.<br/> <i>The decryption process involves:</i><br/>
+Decoding the Base64-encoded ciphertext. Extracting the IV from the beginning of the decoded data. Decrypting the ciphertext using AES in CBC mode with the shared secret key and the IV. Unpadding the decrypted plaintext using a custom function.</p>
+<br/>
+<b>Additional Functions-</b>
+<p align='justify'><b>pad(plain_text):</b>Adds padding to the plaintext data to ensure it is aligned with the AES block size.</p>
+<p align='justify'><b>unpad(plain_txt):</b>Removes padding from the decrypted plaintext data.</p>
+<p align='justify'><b>int_to_bytes(integer):</b>Converts an integer to a bytes object.</p>
+<b>Notes-</b>
+<p align='justify'> The shared_secret key is used as input to both encryption and decryption functions. This key is assumed to be shared between the parties involved in the encryption and decryption process.
+The hashlib.sha256 function is used to generate a hash of the shared secret key, which is then used as the encryption key. The code uses the AES module from the cryptography library, which provides an implementation of the AES algorithm. The get_random_bytes function generates a random bytes object of the same size as the AES block size.</p>
