@@ -1,0 +1,13 @@
+2024-03-10 19:38:41,915 - INFO - Accepting a connection from partner.
+2024-03-10 19:38:42,081 - INFO - Starting to accept connection on 10.0.0.34 port 0
+2024-03-10 19:39:40,360 - INFO - Connected with partner: ('10.0.0.98', 53347).
+2024-03-10 19:39:55,134 - INFO - User has selected a private key a: 1320491234.
+2024-03-10 19:39:55,134 - INFO - User has combined the private key with and p and q.
+2024-03-10 19:39:55,134 - INFO - Sending value 410222538978373 for shared secret calculation.
+2024-03-10 19:39:55,134 - INFO - Receiving information (B Value) for shared secret calculation.
+2024-03-10 19:39:56,331 - INFO - Partner's value: 695841596997821
+2024-03-10 19:39:56,332 - INFO - User has obtained the information and is calculating the shared secret key.
+2024-03-10 19:39:56,332 - INFO - The shared secret calculated at this side is: 457554203378497.
+2024-03-10 19:39:56,332 - INFO - Encrypted message sent.
+2024-03-10 19:39:56,337 - INFO - Received encrypted message.
+2024-03-10 19:39:56,338 - INFO - Received and decrypted message: Good Morning!!

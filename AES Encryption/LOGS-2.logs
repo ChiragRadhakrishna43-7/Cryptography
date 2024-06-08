@@ -1,0 +1,15 @@
+2024-03-10 19:37:13,426 - INFO - Connecting with 10.0.0.98.
+2024-03-10 19:37:19,523 - INFO - P is 997461744715787.
+2024-03-10 19:37:19,524 - INFO - Q is 642757238303678.
+2024-03-10 19:37:26,577 - INFO - User's private key is 1203948123.
+2024-03-10 19:37:26,577 - INFO - Computed and sending value B: 968446972474539 to partner for secret key calculation.
+2024-03-10 19:37:26,577 - INFO - Received information for calculating the shared secret key.
+2024-03-10 19:37:26,577 - INFO - Value received- 499361221011527.0
+2024-03-10 19:37:26,577 - INFO - Compute shared secret key with partner's information.
+2024-03-10 19:37:26,577 - INFO - Shared secret key determined is: 118227139380284.
+2024-03-10 19:37:26,577 - INFO - Encrypting the plaintext by padding and using the shared secret key.
+2024-03-10 19:37:26,578 - INFO - Encryption performed. Sending cipher text 
+:IlIrR1ptGuR0HEfEt47paUjIh5u0AkLFgHpiNPDUx/k=.
+2024-03-10 19:37:26,586 - INFO - Received ciphertext from partner: b'duE3w9w17hu4BEdKaIxNi42kFQ09hLhi9IsGqHZKABsWaQ4P+4MhCOao4jEp6pdNPe9c9BIjh/nUASra/WmjIQ=='.
+2024-03-10 19:37:26,586 - INFO - Decrypting the ciphertext.
+2024-03-10 19:37:26,586 - INFO - Plain text obtained is Hello, this is a secure message..
